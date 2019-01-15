@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/luis/catkin_ws/devel/.private/offb_velocity:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/luis/catkin_ws/devel/.private/offb_velocity/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/luis/catkin_ws/devel/.private/offb_velocity/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/luis/catkin_ws/build/offb_velocity"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/luis/catkin_ws/devel/.private/offb_velocity/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/luis/catkin_ws/src/offb_velocity:$ROS_PACKAGE_PATH"
